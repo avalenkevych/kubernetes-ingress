@@ -19,7 +19,7 @@ spec:
       hostNetwork: true
       serviceAccountName: nginx-ingress
       containers:
-      - image: nginx/nginx-ingress:edge
+      - image: nginx/nginx-ingress
         imagePullPolicy: Always
         name: nginx-ingress
         ports:
